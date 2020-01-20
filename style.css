@@ -166,6 +166,25 @@ ul.end {
     z-index: 102;
 }
 
+.top_break {
+    clip: rect(1px,1px,1px,1px);
+    height: 1px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    z-index: -1000;
+    font-weight: normal;
+}
+
+.btn-s {
+    white-space: nowrap;
+    outline: none;
+    font-family: arial,sans-serif;
+}
+
 .btn_container {
     color: #666;
     font-size: 13px;
@@ -173,6 +192,14 @@ ul.end {
     margin-top: -21px;
     outline-width: 0;
     outline: none;
+    position: relative;
+    z-index: 102;
+}
+
+.btn_container_top {
+    height: 58px;
+    background:#fff;
+    padding: 0;
     position: relative;
     z-index: 102;
 }
